@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class guiIntro {
+public class GuiIntro {
     public static void main(String[] args) {
         String name = JOptionPane.showInputDialog("Enter your name");
         JOptionPane.showMessageDialog(null, "Hello " + name);
@@ -10,6 +10,5 @@ public class guiIntro {
 
         double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
         JOptionPane.showMessageDialog(null, "Your height is " + height);
-
     }
 }

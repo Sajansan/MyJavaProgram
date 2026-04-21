@@ -1,15 +1,12 @@
 import javax.swing.JOptionPane;
 
-public class GuiPrac{
-    public static void main(String[] args){
-        int marks = Integer.parseInt(JOptionPane.showInputDialog("Enter your marks"));
+public class GuiPrac {
+    public static void main(String[] args) {
+        String name = JOptionPane.showInputDialog("Enter your name");
+        JOptionPane.showMessageDialog(null, "Hello " + name);
 
-        if(marks>=75 && marks <=100){
-        JOptionPane.showMessageDialog(null, "Excellent my boy. you passed the subject, your mark is "+marks);
-        }
-        else if(marks<75){
-            JOptionPane.showMessageDialog(null, "You have to work your ass off. Your mark is "+ marks);
-        }
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
 
+        JOptionPane.showMessageDialog(null, "Your fucking age is: " + age);
     }
 }
