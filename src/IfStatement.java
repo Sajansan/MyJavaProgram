@@ -7,7 +7,7 @@ public class IfStatement {
         System.out.print("Enter your age: ");
         int age = scan.nextInt();
 
-        if (age >= 18) {
+        if (age >= 18 && age < 70) {
             System.out.println("You are an adult!");
         } else if (age >= 70) {
             System.out.println("Ok Boomer!");
