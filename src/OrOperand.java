@@ -7,10 +7,10 @@ public class OrOperand {
 
         String response = scan.next();
 
-        if (response.equals("q") || response.equals("Q")) {
-            System.out.println("You fucking quit the game!");
+        if (! response.equals("q") && ! response.equals("Q")) {
+            System.out.println("You are still playing the game");
         } else {
-            System.out.println("You are still playing the game.");
+            System.out.println("You fucking quit the game.");
 
         }
     }
