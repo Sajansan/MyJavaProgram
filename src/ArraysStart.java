@@ -6,6 +6,6 @@ public class ArraysStart {
 
         cars[1] = "Lamborghini";
 
-        System.out.println(cars[3]);
+        System.out.println(cars[0]);
     }
 }
